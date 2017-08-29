@@ -1,6 +1,19 @@
 /RUNNING_PID
-/logs/
 /project/*-shim.sbt
 /project/project/
-/project/target/
-/target/
+# Ignore Play! working directory #
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+>>>>>>> 36631cb58f6580f4fabb819089db470b0385d487
