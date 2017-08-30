@@ -9,8 +9,6 @@ object TriangleType {
   val EQUILATERAL = 3
   val ISOSCELES = 2
   val SCALENE = 1
-
-
 }
 
 case class Triangle(private val sideA: Double,

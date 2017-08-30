@@ -37,14 +37,3 @@ case class MyQueue() {
 
   def isFull: Boolean = index == size
 }
-
-object demo {
-  def main(args: Array[String]): Unit = {
-    val queue: MyQueue = MyQueue()
-    queue.initialize(2)
-    queue.enqueue(1)
-    queue.enqueue(2)
-    queue.dequeue
-    queue.dequeue
-  }
-}
